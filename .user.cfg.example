@@ -19,7 +19,7 @@ tld=com
 hourToKeepScoutHistory=1
 
 #Defines to use either scout_margin or scout_multiplier
-use_margin=no
+use_margin=yes
 
 # It's recommended to use something between 3-7 as scout_multiplier
 scout_multiplier=5
@@ -31,7 +31,7 @@ scout_margin=0.8
 scout_sleep_time=1
 
 # Pre-configured strategies are default and multiple_coins
-strategy=default
+strategy=safe
 
 # Controls how many minutes to wait before cancelling a limit order (buy/sell) and returning to "scout" mode.
 # 0 means that the order will never be cancelled prematurely.
